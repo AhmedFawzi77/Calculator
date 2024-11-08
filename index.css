@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    background-color:rgba(33, 37, 34, 0.849) ;
+}
+#Calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(206, 232, 230, 0.567) ;
+    border-radius: 35px;
+    max-width: 500px;
+    overflow:hidden;
+}
+#display{
+    width: 100%;
+    padding: 30px;
+    font-size: 5rem;
+    text-align:left;
+    border:none;
+    background-color: rgb(215, 11, 11);
+    color: rgb(255, 255, 255);
+}
+#Keys{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 45px;
+    border:solid rgb(255, 255, 255);
+    background-color: rgb(215, 11, 11);
+    color:rgb(255, 255, 255);
+    font-size:medium;
+    font-weight: bold;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgb(87, 13, 13);  
+}
+button:active{
+    background-color: rgb(244, 85, 93);
+}
+.operator-button{
+    background-color: rgb(72, 113, 195);
+}
+.operator-button:hover{
+    background-color: rgb(16, 40, 86);
+}
+.operator-button:active{
+    background-color: rgb(8, 67, 193);
+}
+.equal-button{
+    background-color: rgb(72, 113, 195);
+}
+.equal-button:hover{
+    background-color: rgb(16, 40, 86);
+}
+.equal-button:active{
+    background-color: rgb(8, 67, 193);
+}

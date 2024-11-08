@@ -1,0 +1,38 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Web programming">
+    <title>Web programming</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+ <div id="Calculator">
+       <input id="display" readonly>
+      <div id="Keys">
+           <button onclick="Display('+')" class="operator-button">+</button>
+           <button onclick="Display('7')">7</button>
+           <button onclick="Display('8')">8</button>
+           <button onclick="Display('9')">9</button>
+           <button onclick="Display('-')" class="operator-button">-</button>
+           <button onclick="Display('4')">4</button>
+           <button onclick="Display('5')">5</button>
+           <button onclick="Display('6')">6</button>
+           <button onclick="Display('*')" class="operator-button">*</button>
+           <button onclick="Display('1')">1</button>
+           <button onclick="Display('2')">2</button>
+           <button onclick="Display('3')">3</button>
+           <button onclick="Display('/')" class="operator-button">/</button>
+           <button onclick="Display('0')">0</button>
+           <button onclick="Display('00')">00</button>
+           <button onclick="Display('.')">.</button>
+           <button onclick="Display('%')" class="operator-button">%</button>
+           <button onclick="Delete()" class="operator-button">DEL</button>    
+           <button onclick="ClearDisplay()" class="operator-button">C</button> 
+           <button onclick="Calculate()" class="equal-button">=</button>  
+       </div>
+ </div>
+ <script src="index.js"></script>           
+</body>
+
+</html>
